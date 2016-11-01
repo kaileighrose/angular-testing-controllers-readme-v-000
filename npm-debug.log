@@ -1,0 +1,300 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'karma-cli' ]
+2 info using npm@3.10.8
+3 info using node@v6.6.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData karma-cli
+8 silly fetchNamedPackageData karma-cli
+9 silly mapToRegistry name karma-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'karma-cli',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'karma-cli',
+12 silly mapToRegistry   name: 'karma-cli',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/karma-cli
+14 verbose request uri https://registry.npmjs.org/karma-cli
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 4:50:55 PM
+17 verbose request id 7ccaae9cc2dba944
+18 verbose etag "BZP1VT7P2AOLYBNMO7N10ESCI"
+19 http request GET https://registry.npmjs.org/karma-cli
+20 http 304 https://registry.npmjs.org/karma-cli
+21 verbose headers { date: 'Tue, 01 Nov 2016 20:50:55 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"BZP1VT7P2AOLYBNMO7N10ESCI"',
+21 verbose headers   age: '232',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-jfk8145-JFK',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '2',
+21 verbose headers   'x-timer': 'S1478033455.697651,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 01 Nov 2016 20:50:55 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"BZP1VT7P2AOLYBNMO7N10ESCI"',
+22 silly get     age: '232',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-jfk8145-JFK',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '2',
+22 silly get     'x-timer': 'S1478033455.697651,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/karma-cli from cache
+24 verbose get saving karma-cli to /Users/kmccrea/.npm/registry.npmjs.org/karma-cli/.cache.json
+25 verbose correctMkdir /Users/kmccrea/.npm correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule karma-cli@1.0.1 checking installable status
+39 silly cache add args [ 'karma-cli', null ]
+40 verbose cache add spec karma-cli
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'karma-cli',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'karma-cli',
+41 silly cache add   name: 'karma-cli',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed karma-cli@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for karma-cli
+44 info addNameTag [ 'karma-cli', 'latest' ]
+45 silly mapToRegistry name karma-cli
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'karma-cli',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'karma-cli',
+48 silly mapToRegistry   name: 'karma-cli',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/karma-cli
+50 verbose addNameTag registry:https://registry.npmjs.org/karma-cli not in flight; fetching
+51 verbose get https://registry.npmjs.org/karma-cli not expired, no request
+52 silly addNameTag next cb for karma-cli with tag latest
+53 silly addNamed karma-cli@1.0.1
+54 verbose addNamed "1.0.1" is a plain semver version for karma-cli
+55 silly cache afterAdd karma-cli@1.0.1
+56 verbose afterAdd /Users/kmccrea/.npm/karma-cli/1.0.1/package/package.json not in flight; writing
+57 verbose correctMkdir /Users/kmccrea/.npm correctMkdir not in flight; initializing
+58 verbose afterAdd /Users/kmccrea/.npm/karma-cli/1.0.1/package/package.json written
+59 silly fetchNamedPackageData resolve
+60 silly mapToRegistry name resolve
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'resolve',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   escapedName: 'resolve',
+63 silly mapToRegistry   name: 'resolve',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/resolve
+65 verbose request uri https://registry.npmjs.org/resolve
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 4:50:56 PM
+68 verbose etag "CMAX2DTTXQQXCO8Z6L8JDNAH5"
+69 http request GET https://registry.npmjs.org/resolve
+70 http 200 https://registry.npmjs.org/resolve
+71 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+71 verbose headers   etag: '"F4IFL2LMTK691BU2LEPGABAU8"',
+71 verbose headers   'content-type': 'application/json',
+71 verbose headers   'content-encoding': 'gzip',
+71 verbose headers   'cache-control': 'max-age=300',
+71 verbose headers   'content-length': '6220',
+71 verbose headers   'accept-ranges': 'bytes',
+71 verbose headers   date: 'Tue, 01 Nov 2016 20:50:56 GMT',
+71 verbose headers   via: '1.1 varnish',
+71 verbose headers   age: '207',
+71 verbose headers   connection: 'keep-alive',
+71 verbose headers   'x-served-by': 'cache-jfk8145-JFK',
+71 verbose headers   'x-cache': 'HIT',
+71 verbose headers   'x-cache-hits': '8',
+71 verbose headers   'x-timer': 'S1478033456.089977,VS0,VE0',
+71 verbose headers   vary: 'Accept-Encoding' }
+72 silly get cb [ 200,
+72 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+72 silly get     etag: '"F4IFL2LMTK691BU2LEPGABAU8"',
+72 silly get     'content-type': 'application/json',
+72 silly get     'content-encoding': 'gzip',
+72 silly get     'cache-control': 'max-age=300',
+72 silly get     'content-length': '6220',
+72 silly get     'accept-ranges': 'bytes',
+72 silly get     date: 'Tue, 01 Nov 2016 20:50:56 GMT',
+72 silly get     via: '1.1 varnish',
+72 silly get     age: '207',
+72 silly get     connection: 'keep-alive',
+72 silly get     'x-served-by': 'cache-jfk8145-JFK',
+72 silly get     'x-cache': 'HIT',
+72 silly get     'x-cache-hits': '8',
+72 silly get     'x-timer': 'S1478033456.089977,VS0,VE0',
+72 silly get     vary: 'Accept-Encoding' } ]
+73 verbose get saving resolve to /Users/kmccrea/.npm/registry.npmjs.org/resolve/.cache.json
+74 verbose correctMkdir /Users/kmccrea/.npm correctMkdir not in flight; initializing
+75 silly resolveWithNewModule resolve@1.1.7 checking installable status
+76 silly cache add args [ 'resolve@^1.1.6', null ]
+77 verbose cache add spec resolve@^1.1.6
+78 silly cache add parsed spec Result {
+78 silly cache add   raw: 'resolve@^1.1.6',
+78 silly cache add   scope: null,
+78 silly cache add   escapedName: 'resolve',
+78 silly cache add   name: 'resolve',
+78 silly cache add   rawSpec: '^1.1.6',
+78 silly cache add   spec: '>=1.1.6 <2.0.0',
+78 silly cache add   type: 'range' }
+79 silly addNamed resolve@>=1.1.6 <2.0.0
+80 verbose addNamed ">=1.1.6 <2.0.0" is a valid semver range for resolve
+81 silly addNameRange { name: 'resolve', range: '>=1.1.6 <2.0.0', hasData: false }
+82 silly mapToRegistry name resolve
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry data Result {
+85 silly mapToRegistry   raw: 'resolve',
+85 silly mapToRegistry   scope: null,
+85 silly mapToRegistry   escapedName: 'resolve',
+85 silly mapToRegistry   name: 'resolve',
+85 silly mapToRegistry   rawSpec: '',
+85 silly mapToRegistry   spec: 'latest',
+85 silly mapToRegistry   type: 'tag' }
+86 silly mapToRegistry uri https://registry.npmjs.org/resolve
+87 verbose addNameRange registry:https://registry.npmjs.org/resolve not in flight; fetching
+88 verbose get https://registry.npmjs.org/resolve not expired, no request
+89 silly addNameRange number 2 { name: 'resolve', range: '>=1.1.6 <2.0.0', hasData: true }
+90 silly addNameRange versions [ 'resolve',
+90 silly addNameRange   [ '0.0.0',
+90 silly addNameRange     '0.0.1',
+90 silly addNameRange     '0.0.2',
+90 silly addNameRange     '0.0.3',
+90 silly addNameRange     '0.0.4',
+90 silly addNameRange     '0.1.0',
+90 silly addNameRange     '0.1.2',
+90 silly addNameRange     '0.1.3',
+90 silly addNameRange     '0.2.0',
+90 silly addNameRange     '0.2.1',
+90 silly addNameRange     '0.2.2',
+90 silly addNameRange     '0.2.3',
+90 silly addNameRange     '0.2.4',
+90 silly addNameRange     '0.2.5',
+90 silly addNameRange     '0.2.6',
+90 silly addNameRange     '0.2.7',
+90 silly addNameRange     '0.2.8',
+90 silly addNameRange     '0.3.0',
+90 silly addNameRange     '0.3.1',
+90 silly addNameRange     '0.4.0',
+90 silly addNameRange     '0.4.1',
+90 silly addNameRange     '0.4.2',
+90 silly addNameRange     '0.4.3',
+90 silly addNameRange     '0.5.0',
+90 silly addNameRange     '0.5.1',
+90 silly addNameRange     '0.6.0',
+90 silly addNameRange     '0.6.1',
+90 silly addNameRange     '0.6.2',
+90 silly addNameRange     '0.6.3',
+90 silly addNameRange     '0.7.0',
+90 silly addNameRange     '0.7.1',
+90 silly addNameRange     '0.7.2',
+90 silly addNameRange     '0.7.3',
+90 silly addNameRange     '0.7.4',
+90 silly addNameRange     '1.0.0',
+90 silly addNameRange     '1.1.0',
+90 silly addNameRange     '1.1.2',
+90 silly addNameRange     '1.1.3',
+90 silly addNameRange     '1.1.4',
+90 silly addNameRange     '1.1.5',
+90 silly addNameRange     '1.1.6',
+90 silly addNameRange     '1.1.7' ] ]
+91 silly addNamed resolve@1.1.7
+92 verbose addNamed "1.1.7" is a plain semver version for resolve
+93 silly cache afterAdd resolve@1.1.7
+94 verbose afterAdd /Users/kmccrea/.npm/resolve/1.1.7/package/package.json not in flight; writing
+95 verbose correctMkdir /Users/kmccrea/.npm correctMkdir not in flight; initializing
+96 verbose afterAdd /Users/kmccrea/.npm/resolve/1.1.7/package/package.json written
+97 silly loadAllDepsIntoIdealTree Finishing
+98 silly loadIdealTree Finishing
+99 silly currentTree lib
+99 silly currentTree └─┬ karma-cli@1.0.1
+99 silly currentTree   └── resolve@1.1.7
+100 silly idealTree lib
+100 silly idealTree └─┬ karma-cli@1.0.1
+100 silly idealTree   └── resolve@1.1.7
+101 silly generateActionsToTake Starting
+102 silly install generateActionsToTake
+103 silly generateActionsToTake Finishing
+104 silly diffTrees action count 1
+105 silly diffTrees update karma-cli@1.0.1
+106 silly decomposeActions action count 8
+107 silly decomposeActions fetch karma-cli@1.0.1
+108 silly decomposeActions extract karma-cli@1.0.1
+109 silly decomposeActions test karma-cli@1.0.1
+110 silly decomposeActions preinstall karma-cli@1.0.1
+111 silly decomposeActions build karma-cli@1.0.1
+112 silly decomposeActions install karma-cli@1.0.1
+113 silly decomposeActions postinstall karma-cli@1.0.1
+114 silly decomposeActions finalize karma-cli@1.0.1
+115 silly runTopLevelLifecycles Starting
+116 silly executeActions Starting
+117 silly install executeActions
+118 silly doSerial global-install 0
+119 silly doParallel fetch 1
+120 verbose correctMkdir /Users/kmccrea/.npm/_locks correctMkdir not in flight; initializing
+121 verbose lock using /Users/kmccrea/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+122 silly doParallel extract 1
+123 silly extract karma-cli@1.0.1
+124 verbose unbuild lib/node_modules/.staging/karma-cli-20db5266
+125 silly gentlyRm /usr/local/lib/node_modules/.staging/karma-cli-20db5266 is being purged from base /usr/local
+126 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/karma-cli-20db5266
+127 verbose tar unpack /Users/kmccrea/.npm/karma-cli/1.0.1/package.tgz
+128 verbose tar unpacking to /usr/local/lib/node_modules/.staging/karma-cli-20db5266
+129 silly gentlyRm /usr/local/lib/node_modules/.staging/karma-cli-20db5266 is being purged
+130 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/karma-cli-20db5266
+131 silly gunzTarPerm modes [ '755', '644' ]
+132 silly gunzTarPerm extractEntry package.json
+133 silly gunzTarPerm extractEntry LICENSE
+134 silly gunzTarPerm extractEntry gruntfile.js
+135 silly gunzTarPerm extractEntry CHANGELOG.md
+136 silly gunzTarPerm extractEntry bin/karma
+137 silly gunzTarPerm extractEntry lib/log.js
+138 verbose stack TypeError: uid must be an unsigned int
+138 verbose stack     at TypeError (native)
+138 verbose stack     at Object.fs.chown (fs.js:1190:11)
+138 verbose stack     at Object.chown (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:231:17)
+138 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+138 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+138 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+138 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:211:18
+138 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+139 verbose cwd /Users/kmccrea/Development/code/angular-testing-controllers-readme-v-000
+140 error Darwin 16.0.0
+141 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "karma-cli"
+142 error node v6.6.0
+143 error npm  v3.10.8
+144 error uid must be an unsigned int
+145 error If you need help, you may report this error at:
+145 error     <https://github.com/npm/npm/issues>
+146 verbose exit [ 1, true ]
